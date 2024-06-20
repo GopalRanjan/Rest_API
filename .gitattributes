@@ -1,2 +1,16 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+
+import java.util.*;
+public class Print_msg
+{
+public static void main(String[] args)
+{
+String s = "Hello";
+String p = "World";
+p = p + s;
+s = p.substring(0,p.length()-s.length());
+p = p.substring(s.length());
+System.out.println(s);
+System.out.println(p);
+}
+}
+
